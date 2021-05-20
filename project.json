@@ -1,0 +1,57 @@
+{
+  "name": "afk",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "FreecraftCore.Serializer": "[4.0.55]",
+    "UiPath.Excel.Activities": "[2.9.1-preview]",
+    "UiPath.IntelligentOCR.Activities": "[4.13.1]",
+    "UiPath.Mail.Activities": "[1.9.1-preview]",
+    "UiPath.System.Activities": "[20.8.0-preview]",
+    "UiPath.UIAutomation.Activities": "[20.8.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.8.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "0b349d9a-ba89-4a2f-9f43-bff04969be4b",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
